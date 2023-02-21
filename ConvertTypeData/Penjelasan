@@ -1,0 +1,4 @@
+KONVERSI TIPE DATA
+  - Di Golang kadang kita butuh melakukan konversi tipe data dari satu ke lain
+  - xample : int32 => int36
+  

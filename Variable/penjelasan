@@ -1,0 +1,15 @@
+VARIABLE
+  - Variable adalah tempat untuk menampung suatu data
+  - Variable digunakan agar kita bisa mengakses data yang sama dimanapun kita mau
+  - Di Golang Variable hanya bisa menyimpan tipe data yang sama, jika kita ingin menyimpan data yang berbeda beda jenis, kita harus membuat beberapa variable
+  - Untuk membuat variable, kita bisa menggunakan kata kunci var, lalu diikuti dengan nama variable dan type datanya 
+  - saat kita membuat variable, maka kita perlu menyebutkan tipe data variable tersebut
+
+KATA KUNCI VAR 
+  - Di Golang, kata kunci var saat membuat variable tidak lah wajib.
+  - Asalkan saat membuat variable kita langsung menginisialisasi data
+  - Agar tidak perlu menggunakan kata kunci var, kita perlu menggunakan kata kunci := saat menginisialisasikan data pada variable tersebut
+
+DEKLARASI MULTIPLE VAR
+  - Di Golang kita bisa membuat variable secara sekaligus banyak
+  - Code mudah dibaca

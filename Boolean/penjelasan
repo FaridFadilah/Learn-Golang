@@ -1,0 +1,5 @@
+BOOLEAN DIGOLANG
+  - type data yg memiliki 2 nilai, yaitu true dan false
+  - type data boolean direpresentasikan menggunakan kata kunci bool
+  - true => benar
+  - false => salah

@@ -1,0 +1,6 @@
+CONSTANTA DIGOLANG
+  - Constanta adalah variable yg nilainya tidak bisa berubah setelah pertama kali dideklarasikan
+  - Cara pembuatan variable constanta mirip dengan variable pada umumnya, namun hanya membedakan yaitu kata kunci yg digunakan yaitu const
+  - Saat pembuatan constant, wajib menginisialisasikan datanya
+  - meskipun var constant dideklarasikan tapi tidak dipakai, golang akan mengignore sehingga tidak terjadi error
+  - Constant pun dapat dideklarasikan secara multiple

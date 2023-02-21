@@ -1,0 +1,9 @@
+TYPE DATA STRING
+  - String ada tipe data kumpulan karakter
+  - Jumlah karakter didalam string bisa nol sampai tak terhingga
+  - Tipe data string diGo-Lang direpresentasikan dengan kata kunci string
+  - Nilai data String diGo-Lang selalu diawali dengan karakter ("", '')
+
+FUNCTION UNTUK STRING
+  - len("string") => menghitung jumlah karakter string
+  - "string"[number] => mengambil karakter pada posisi yang ditentukan

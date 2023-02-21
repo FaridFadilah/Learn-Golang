@@ -1,0 +1,31 @@
+TYPE NUMERIC DIGOLANG 
+  - Integer
+  - Floating Point
+
+RANGE INTEGER
+  - TypeData => min => max
+  - int8    => -128                 => 127
+  - int16   => -32768               => 32767
+  - int32   => -2147483648          => 2147483647
+  - int64   => -9223372036854775808 => 9223372036854775807
+
+RANGE UNSIGNED INTEGER
+  - TypeData    =>  min   => max
+  - uint8       =>  0     =>  255
+  - uint16      =>  0     => 65535
+  - uint32      =>  0     => 4294967295
+  - uint64      =>  0     => 2^64 -1
+
+RANGE FLOATING POINT
+  - TypeData    =>  min   => max
+  - Float32     =>  1.18*10^-38     =>  3.4*10^38
+  - Float64      =>  0     => 65535
+  - complex32      =>  0     => 4294967295
+  - complex64      =>  0     => 2^64 -1
+
+ALIAS
+  - byte => uint8
+  - rune => int32
+  - int => minimal int32
+  - uint => minimal uint32
+

@@ -1,0 +1,31 @@
+SEJARAH GO-LANG
+  - Dibuat oleh google menggunakan bahasa C
+  - Dirilis kepublic sebagai open source pada tahun 2009
+  - Go-Lang popular sejak digunakan untuk membuat Docker pada tahun 2011
+  - Saat ini mulai banyak teknologi baru yang dibuat menggunakan bahasa Go-Lang dibanding bahasa C, seperti Kubernetes, Prometheus, Cockroach DB, dll
+  - Saat ini mulai populer untuk pembuatan Backend API di Microservice
+
+KENAPA GOLANG?
+  - Sangat sederhana, tidak membutuhkan waktu lama untuk mempelajarinya,
+  - Go-Lang mendukung baik concurrency programming, dimana saat ini kita hidup dizaman multicore processor
+  - Go-Lang mendukung garbage collector, sehingga tidak butuh melakukan management memory secara manual seperti dibahasa C
+  - Salah satu bahasa program yg sedang populer
+
+SOFTWARE DEVELOPMENT KIT
+  - https://golang.org/
+  - Download Compiler Go-Lang
+  - Install Compiler Go-Lang
+  - Cek menggunakan perintah : go version
+
+PROSES DEVELOPMENT GOLANG
+  - Compiler File => Compiler => Produce Binary File
+  - main.go => Go Compiler => main 
+
+TEXT EDITOR 
+  - Vs Code
+  - JetBrains GoLang
+
+COMMAND LINE GOLANG
+  - go run {namefile.go} => untuk menjalankan file golang
+  - go build {namefile.go} => melakukan compile dan menjadikannya file 
+  - ./{namefile} => untuk menjalankan file golang yang telah dicompile

@@ -1,0 +1,18 @@
+TIPE DATA ARRAY DIGOLANG
+  - Array adalah berisikan kumpulan data dengan tipe data yang sama
+  - Saat membuat array, kita perlu menentukan jumlah data yang bisa ditampung oleh Array tersebut
+  - Daya tampung array tidak bisa bertambah setelah array dibuat
+
+INDEX DIARRAY
+  - index awal dari array dimulai dari 0 bukan 1
+  - 0 => "Farid"
+  - 1 => "Fadilah"
+  - 2 => "Permana"
+
+MEMBUAT ARRAY LANGSUNG 
+  - Di Golang kita juga bisa membuat Array secara langsung saat deklarasi variable
+
+FUNCTION ARRAY
+  - len(array) => Untuk mendapatkan panjang array
+  - array[index] => mendapatkan diposisi index
+  - array[index] = value => mengubah data diposisi index

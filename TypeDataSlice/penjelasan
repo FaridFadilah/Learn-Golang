@@ -1,0 +1,26 @@
+TIPE DATA SLICE
+  - Tipe Data Slice adalah potongan data dari array
+  - Slice mirip dengan array, yang membedakan adalah ukuran Slice bisa berubah
+  - Slice dan array selalu terkoneksi, dimana Slice adalah data yang mengakses sebagian atau seluruh data diarray
+
+DETAIL TIPE DATA SLICE
+  - Tipe Data Slice memiliki 3 data, yaitu pointer, length, dan capacity
+  - Pointer adalah penunjuk data pertama diarray para slice
+  - Length adalah panjang dari slice, dan
+  - Capacity adalah kapasitas dari slice, dimana length tidak boleh lebih dari capacity
+
+MEMBUAT SLICE DARI ARRAY
+  - array[low:high] => Membuat slice dari array dimulai index low sampai index sebelum high
+  - array[low:] => Membuat slide dari array dimulai index low sampai index akhir diarray
+  - array[:high] => Membuat slide dari array dimulai index 0 sampai index sebelum akhir diarray
+  - array[:] => Membuat slice dari array dimulai index 0 sampai index akhir array
+
+SLICE DAN ARRAY
+  - array[4:7] => slice1[ pointer = 4, length = 3, capacity = 8] => array(urutanBulan) <= slice2[pointer=6, length=3, capacity=6] <= array[6:9]
+
+FUNCTION SLICE
+  - len(slice) => Untuk mendapatkan panjang
+  - cap(slice) => Untuk mendapatkan kapasitas
+  - append(slice, data) => membuat slice baru dengan menambahkan data ke posisi terakhir slice, jika kapasitas telah penuh, maka akan membuat array baru
+  - make([]TypeData, length, capacity) => membuat slice baru
+  - copy(destination, source) => menyalin slice dari source ke destination

@@ -1,0 +1,21 @@
+OPERASI BOOLEAN
+  - Operasi Boolean ini hanya dapat dijalankan untuk tipe data boolean
+  - && => Dan
+  - || => Atau
+  - ! => Kebalikan
+  
+OPERASI &&
+  - true => && => true => true
+  - true => && => false => false
+  - false => && => false => false
+  - false => && => true => false
+  
+OPERASI ||
+  - true => || => true => true
+  - true => || => false => true
+  - false => || => false => false
+  - false => || => true => true
+
+OPERASI !
+  - true => ! => false 
+  - false => ! => true

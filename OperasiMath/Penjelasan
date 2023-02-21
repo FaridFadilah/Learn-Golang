@@ -1,0 +1,22 @@
+OPERASI MATEMATIKA DIGOLANG
+  - Tidak beda jauh dengan bahasa program yg lain
+  - + => menjumlahkan
+  - - => mengurangi
+  - * => mengalikan
+  - / => membagikan 
+  - % => sisa dari pembagian
+
+AUGMENTED ASSIGNMENTS
+  - mempersingkat ketika suatu variable melakukan operasi math dengan variable itu sendiri
+  - a = a + 10 => a += 10
+  - a = a - 10 => a -= 10
+  - a = a * 10 => a *= 10
+  - a = a / 10 => a /= 10
+  - a = a % 10 => a %= 10
+
+UNARY OPERATOR
+  - ++ => a = a+1
+  - -- => a = a-1
+  - - => negative
+  - + => positive
+  - ! => Boolean kebalikan
