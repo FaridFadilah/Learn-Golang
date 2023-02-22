@@ -1,0 +1,11 @@
+SWITCH EXPRESSION
+  - Selain if expression, untuk melakukan percabangan, kita juga bisa menggunakan Switch Expression 
+  - Switch expression sangat sederhana dibandingkan if
+  - Biasanya switch expression digunakan untuk melakukan pengecekan kondisi dalam satu variable
+
+SWITCH SHORT STATEMENT
+  - Sama halnya dengan if, switch pun bisa melakukan short statement
+
+SWITCH TANPA KONDISI
+  - Kondisi di Switch Expression tidak wajib
+  - Jika kita tidak menggunakan kondisi diswitch expression, kita bisa menambahkan kondisi tersebut disetiap casenya

@@ -1,0 +1,10 @@
+VARIADIC FUNCTION
+  - Parameter yang berada diposisi terakhir, memiliki kemampuan dijadikan sebuah varargs (variable arguments)
+  - Varargs artinya datanya bisa menerima lebih dari satu input, atau anggap saja semacam Array
+  - Apa bedanya dengan parameter biasa dengan tipe data Array?
+    * Jika parameter tipe Array, kita wajib membuat Array terlebih dahulu sebelum mengirimkan ke function
+    * Jika parameter menggunakan varargs, kita bisa langsung mengirim data nya, jika lebih dari satu, cukup gunakan tanda koma 
+
+SLICE PARAMETER
+  - Kadang ada kasus dimana kita menggunakan Variadict Function, namun memiliki variable berupa slice
+  - Kita bisa menjadikan slice sebagai varargs parameter

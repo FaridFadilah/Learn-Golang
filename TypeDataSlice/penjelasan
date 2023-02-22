@@ -24,3 +24,6 @@ FUNCTION SLICE
   - append(slice, data) => membuat slice baru dengan menambahkan data ke posisi terakhir slice, jika kapasitas telah penuh, maka akan membuat array baru
   - make([]TypeData, length, capacity) => membuat slice baru
   - copy(destination, source) => menyalin slice dari source ke destination
+
+HATI HATI KETIKA MEMBUAT ARRAY
+  - Saat membuat array, kita harus berhati - hati, jika salah, maka yg kita buat itu bukan array, tetapi slice

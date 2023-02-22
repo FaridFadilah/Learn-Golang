@@ -1,0 +1,13 @@
+FOR
+  - Dalam bahasa program, biasanya ada fitur perulangan
+  - Salah satu fitur perulangan yaitu for
+  - berbeda dengan bahasa program yg lain perulangan digolang hanya ada for saja
+
+FOR STATEMENT
+  - Dalam for, kita bisa menambahkan statement, dimana terdapat 2 statement yang bisa ditambahkan difor
+  - Init statement, yaitu statement sebelum for dieksekusi
+  - Post statement, yaitu statement yang akan selalu dieksekusi diakhir tiap perulangan
+
+FOR RANGE
+  - For bisa digunakan untuk melakukan iterasi terhadap semua data collection
+  - Data collection contohnya Slice, Array, Map

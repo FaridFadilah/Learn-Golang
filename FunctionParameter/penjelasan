@@ -1,0 +1,5 @@
+FUNCTION PARAMETER
+  - Saat membuat function, kadang - kadang kita membutuhkan data dari luar, atau kita sebut parameter
+  - Kita bisa menambahkan parameter difunction, bisa lebih dari satu
+  - Parameter tidaklah wajib, jadi kita bisa membuat function tanpa parameter
+  - Namun jika kita menambahkan parameter difunction, maka ketika memanggil function tersebut, kita wajib memasukan data ke parameternya

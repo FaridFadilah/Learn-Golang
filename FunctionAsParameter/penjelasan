@@ -1,0 +1,7 @@
+FUNCTION AS PARAMETER
+  - Function tidak hanya bisa kita simpan didalam variable sebagai value
+  - Namun juga bisa kita gunakan sebagai parameter untuk function lain
+
+FUNCTION TYPE DECLARATION
+  - Kadang jika function terlalu panjang, agak ribet untuk menuliskannya didalam parameter
+  - Type Declarations juga bisa digunakan untuk membuat alias function, sehingga akan mempermudah kita menggunakan function sebagai parameter 

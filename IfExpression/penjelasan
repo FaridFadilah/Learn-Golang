@@ -1,0 +1,17 @@
+IF EXPRESSION 
+  - If adalah salah satu kata kunci yang digunakan untuk percabangan
+  - Percabangan artinya kita bisa mengeksekusi kode program tertentu ketika suatu kondisi terpenuhi
+  - Hampir bahasa program mendukung IF Expression
+
+ELSE EXPRESSION
+  - Blok if akan dieksekusi jika kondisi if bernilai true
+  - Kadang ingin melakukan eksekusi program tertentu jika kondisi if bernilai false
+  - Hal ini bisa dilakukan dengan Else Expression
+
+ELSEIF EXPRESSION
+  - Kadang dalam If, kita butuh membuat banyak kondisi
+  - Kasus seperti ini, kita bisa menggunakan ElseIf Expression
+
+IF SHORT STATEMENT
+  - If mendukung short statement sebelum kondisi
+  - Hal ini sangat cocok untuk membuat statement yang sederhana sebelum melakukan pengecekan terhadap kondisi

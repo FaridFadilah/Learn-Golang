@@ -1,0 +1,4 @@
+FUNCTION
+  - Function adalah pengelompokan baris code agar dapat dijalan berulang kali
+  - Di Golang untuk membuat function dapat dengan menggunakan kata kunci "func" lalu diikuti dengan nama function lalu diikuti dengan () dan juga block code {}
+  - lalu cara memanggil function yg telah dibuat hanya dengan memanggil nama functionnya diikuti dengan () 

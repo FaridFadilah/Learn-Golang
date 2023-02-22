@@ -1,0 +1,7 @@
+RETURNING MULTI VALUES
+  - Function tidak hanya dapat mengembalikan 1 values, tapi juga bisa multiple value
+  - Untuk memberitahu jika function mengembalikan multi value, kita harus menulis semua tipe data return valuenya di function
+
+MENGHIRAUKAN RETURN VALUE
+  - Multi Value wajib ditangkap disemua value
+  - Jika ingin menghiraukan return value tersebut, kita bisa menggunakan tanda _ (garis bawah)
