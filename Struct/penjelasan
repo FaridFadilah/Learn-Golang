@@ -1,0 +1,15 @@
+STRUCT 
+  - Struct adalah sebuah template data yang digunakan untuk menggabungkan nol atau lebih tipe data lainnya dalam satu kesatuan
+  - Struct biasanya representasi data dalam program aplikasi yg kita buat
+  - Data distruct disimpan dalam field
+  - Sederhananya struct adalah kumpulan field
+  - simpelnya struct sama seperti class dioop
+
+MEMBUAT DATA STRUCT
+  - Struct adalah template data atau prototype data
+  - Struct tidak bisa langsung digunakan
+  - Namun kita bisa membuat data/object dari struct yg telah dibuat
+
+STRUCT LITERAL
+  - Sebelumnya kita telah membuat data dari struct, namun sebenarnya ada banyak cara yg bisa kita gunakan untuk membuat data dari struct
+

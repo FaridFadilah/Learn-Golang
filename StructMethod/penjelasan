@@ -1,0 +1,4 @@
+STRUCT METHOD
+  - Struct adalah tipe data seperti tipe data lainnya, dia bisa digunakan sebagai parameter untuk function
+  - Namun jika kita ingin menambahkan method kedalam structs, sehingga seakan akan sebuah struct memiliki function
+  - Method adalah function

@@ -1,0 +1,10 @@
+INTERFACE
+  - Interface adalah tipe data Abstract, dia tidak memiliki implementasi langsung
+  - Sebuah interface berisikan definisi-definisi method
+  - biasanya interface digunakan sebagai kontrak
+
+Implementasi interface
+  - Setiap tipe data yang sesuai dengan kontrak interface, secara otomatis dianggap sebagai interface tersebut
+  - Sehingga kita tidak perlu mengimplementasikan interface secara manual
+  - Hal ini agak berbeda dengan bahasa program lain yg ketika membuat interface, kita harus menyebutkan secara explisit akan menggunakan interface mana
+
