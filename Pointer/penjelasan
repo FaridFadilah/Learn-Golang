@@ -6,10 +6,15 @@ POINTER
   - Pointer adalah kemampuan membuat reference ke lokasi data dimemory yg sama, tanpa menduplikasi data yg sudah ada
   - Sederhananya, dengan kemampuan pointer, kita bisa membuat pass by reference
 
-OPERATOR
+OPERATOR & *
   - Untuk membuat sebuah variable dengan nilai pointer ke variable yg lain, kita bisa menggunakan operator & diikuti dengan nama variable nya
   - Saat kita mengubah variable pointer, maka data yg berubah hanya variable tersebut
   - Semua variable yg mengacu kedata tersebut, kita bisa menggunakan operator *
 
 PASS BY REFERENCE DENGAN POINTER
-  - xample: address => 
+  - xample: pointer => value <= anotherPointer
+
+FUNCTION NEW 
+  - Kita bisa menggunakan operator & untuk membuat pointer
+  - Golang juga memiliki function new yg bisa digunakan untuk membuat pointer
+  - Namun function new hanya mengembalikan pointer ke data kosong, artinya tidak ada data awal 

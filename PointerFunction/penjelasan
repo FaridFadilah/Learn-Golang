@@ -1,0 +1,9 @@
+POINTER DIFUNCTION
+  - Saat kita membuat difunction, secara default adalah pass by value, artinya data akan dicopy lalu dikirim kefunction tersebut
+  - Oleh karena itu, jika kita mengubah data didalam function, data yang aslinya tidak akan pernah berubah
+  - Hal ini membuat variable menjadi aman, karena tidak akan bisa diubah
+  - Namun kadang kita ingin membuat function yg bisa mengubah data asli parameter tersebut 
+  - Untuk melakukan ini, kita juga bisa menggunakan pointer difunction
+  - Untuk menjadikan sebuah parameter sebagai pointer, kita bisa menggunakan operator * di parameternya
+  
+   

@@ -1,0 +1,5 @@
+POINTER DIMETHOD
+  - Walaupun method akan menempel distruct, tapi sebenarnya data struct yg diakses didalam method adalah pass by value
+  - Sangat direkomendasikan menggunakan pointer dimethod, sehingga tidak boros memory karena harus slalu diduplikasi ketika memanggil method
+
+  

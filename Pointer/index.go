@@ -7,15 +7,32 @@ type Address struct{
 }
 
 func main(){
-	address1 := Address{"bandung","jawa barat", "indonesia"}
-	var passValue Address = address1 //
-	var pointer *Address = &address1 // Pointer
-	// pointer := &address1  (ini shortcut mendefinisikan variable pointer)
+	value := Address{"bandung","jawa barat", "indonesia"}
+	// var passValue Address = value 
+	var pointer *Address = &value // Pointer
+	
+	// pointer := &value  (ini shortcut mendefinisikan variable pointer)
+	pointerNew := new(Address) // membuat pointer menggunakan function new
 
-	passValue.kota = "subang"
-	pointer = &Address{"Jakarta", "Jawa barat", "indonesia"}
+	pointerNew.kota = "sumedang"
+	pointerNew.provinsi = "jawa barat"
+	pointerNew.negara = "indonesia"
 
-	fmt.Println(address1) // nilai tidak berubah
-	fmt.Println(passValue)
+	// passValue.kota = "subang"
+	pointer.kota = "jogja"
+
+	fmt.Println(value)
 	fmt.Println(pointer)
+
+	// pointer = &Address{"jepara", "jawa tengah", "indonesia"}
+
+	// fmt.Println(value) // tidak berubah
+	// fmt.Println(passValue)
+	// fmt.Println(pointer)
+
+	*pointer = Address{"malang", "jawa timur", "indonesia"}
+
+	fmt.Println(value)
+	fmt.Println(pointer)
+	fmt.Println(pointerNew)
 }
