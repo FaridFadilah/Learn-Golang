@@ -1,7 +1,7 @@
-package packageimport
+package PackageImport
 
 import "fmt"
 
-func sayHello(name string){
+func SayHello(name string){
 	fmt.Println("Hello", name)
 }
