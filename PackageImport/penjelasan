@@ -1,0 +1,8 @@
+PACKAGE
+  - Package adalah tempat yg bisa digunakan untuk mengorganisir kode program yg kita buat digolang
+  - Dengan menggunakan package, kita bisa merapikan kode program yg kita buat
+  - Package sendiri sebenarnya hanya direktori folder disistem operasi kita
+
+IMPORT 
+  - Secara standar, file digolang hanya bisa diakses file Golang lainnya yg berada dalam package yg sama
+  - Jika kita ingin mengakses file golang yg berada diluar package, maka kita bisa menggunakan import

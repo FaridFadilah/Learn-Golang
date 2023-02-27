@@ -1,0 +1,7 @@
+GOPATH
+  - GOPATH adalah env variable yg berisikan lokasi tempat kita menyimpan project dan library golang
+  - GOPATH wajib dibuat ketika kita mulai membuat aplikasi lebih dari 1 file atau butuh menggunakan library dari luar
+
+LINUX 
+  - Add to .bashrc or .zshrc or .profile
+  - export GOPATH="/home/{username}/Dev/Golang"
