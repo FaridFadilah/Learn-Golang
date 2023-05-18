@@ -1,0 +1,19 @@
+GO-Modules
+
+Sebelum Ada Go Modules
+  - Saat kita membuat aplikasi, biasanya kita akan menggunakan library aatau dependency dari project lain
+  - Sebelum ada Go Modules, management untuk dependency sangat sulit dilakukan di Go-Lang
+  - Biasanya kita akan mengcopy semua source code library atau dependency lain keproject kita, hal ini membuat project kita menjadi bengkak karena penuh dengan library orang lain,
+  - Atau biasanya library orang lain akan kita save di GOPATH directory, namun hal ini akan sulit jika ternyata beberapa aplikasi butuh library yg sama dengan versi yg berbeda
+
+Setelah ada Go Modules
+  - Go-Modules mulai dikenalkan diGolang 1.11 dan 1.12 
+  - Dengan Go-Modules kita bisa membuat project dengan mudah dan dependency management yg sangat mudah
+
+Membuat Module
+  - Untuk membuat module baru, kita bisa menggunakan perintah "go mod init nama-module"
+  - Golang akan secara otomatis membuat file go.mod yang berisikan informasi nama module dan juga versi golang yg kita gunakan
+
+Rilis Module
+  - Go-Lang terintegrasi baik dengan git
+  - Untuk merilis module, kita hanya perlu membuat Tag digit
